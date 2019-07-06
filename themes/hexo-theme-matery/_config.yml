@@ -40,7 +40,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   showTitle: true
   title: 听听音乐
   fixed: false # 开启吸底模式
@@ -92,9 +92,9 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  qq: 992917052
-  github:  https://github.com/wxyun2
-  email: xingwan@wxyun.cc
+  qq: 992917
+  github: https://github.com/wxyun2
+  email: wanxing@wxyun.cc
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -154,7 +154,7 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: java软件工程师
+  career: Software Engineer
   introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
 
 # config my projects informations in about page.
@@ -208,7 +208,7 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: false
+  enable: true
   data:
     - /medias/featureimages/0.jpg
     - /medias/featureimages/1.jpg
